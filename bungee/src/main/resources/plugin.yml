@@ -1,4 +1,4 @@
 name: ${plugin.prefix}
 main: ${plugin.mainClass}
-version: ${version}
+version: ${project.version}
 author: Overcast Network

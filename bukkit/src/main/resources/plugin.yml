@@ -1,5 +1,5 @@
 name: ${plugin.prefix}
-version: ${version}
+version: ${project.version}
 description: ${description}
 author: Overcast Network
 website: ${url}

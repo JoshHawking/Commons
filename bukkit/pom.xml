@@ -30,7 +30,7 @@
         <dependency>
             <groupId>tc.oc</groupId>
             <artifactId>commons-core</artifactId>
-            <version>${version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.bukkit</groupId>

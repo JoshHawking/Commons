@@ -12,6 +12,7 @@ public class ListUtils {
      * @param <T>   The type of {@link List}s.
      * @return The union.
      */
+    @SafeVarargs
     public static <T> List<T> union(List<T>... lists) {
         List<T> newList = new LinkedList<>();
 

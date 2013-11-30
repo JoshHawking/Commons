@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import com.google.common.base.Preconditions;
 import org.bukkit.*;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemFactory;
@@ -85,6 +86,12 @@ public class BukkitUtils {
             return dyeColor;
         } else {
             return DyeColor.WHITE;
+        }
+    }
+
+    public static void broadcastMessage(final String... messages) {
+        for (String message : Preconditions.checkNotNull(messages, "Messages")) {
+            Bukkit.broadcastMessage(Preconditions.checkNotNull(message, "Message"));
         }
     }
 

@@ -116,7 +116,7 @@ public class BukkitUtils {
     private static final Map<ChatColor, DyeColor> CHAT_DYE_MAP = ImmutableMap.<ChatColor, DyeColor>builder()
             .put(ChatColor.AQUA, DyeColor.LIGHT_BLUE)
             .put(ChatColor.BLACK, DyeColor.BLACK)
-            .put(ChatColor.BLUE, DyeColor.LIGHT_BLUE)
+            .put(ChatColor.BLUE, DyeColor.BLUE)
             .put(ChatColor.DARK_AQUA, DyeColor.CYAN)
             .put(ChatColor.DARK_BLUE, DyeColor.BLUE)
             .put(ChatColor.DARK_GRAY, DyeColor.GRAY)

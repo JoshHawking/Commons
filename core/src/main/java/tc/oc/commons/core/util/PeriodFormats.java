@@ -10,6 +10,7 @@ public class PeriodFormats {
             .appendDays().appendSuffix("d")
             .appendHours().appendSuffix("h")
             .appendMinutes().appendSuffix("m")
+            .appendSeconds().appendSuffix("s")
             .appendSeconds().appendSeparatorIfFieldsBefore("s") // numbers with no units assumed to be seconds
             .toFormatter();
 

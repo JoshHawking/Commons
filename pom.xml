@@ -19,8 +19,8 @@
     <description>Commons is a collection of libraries and utilities commonly utilised by Overcast Network
         software.
     </description>
-    <url>https://github.com/OvercastNetwork/Commons</url>
-    <inceptionYear>2013</inceptionYear>
+    <url>https://github.com/JoshHawking/Commons</url>
+    <inceptionYear>2014</inceptionYear>
 
     <licenses>
         <license>
@@ -31,20 +31,10 @@
     </licenses>
 
     <scm>
-        <connection>scm:git:https://github.com/OvercastNetwork/Commons.git</connection>
-        <url>https://github.com/OvercastNetwork/Commons</url>
+        <connection>scm:git:https://github.com/JoshHawking/Commons.git</connection>
+        <url>https://github.com/JoshHawking/Commons</url>
     </scm>
-
-    <issueManagement>
-        <system>GitHub Issues</system>
-        <url>https://github.com/OvercastNetwork/Issues/issues</url>
-    </issueManagement>
-
-    <ciManagement>
-        <system>Travis CI</system>
-        <url>https://travis-ci.org/OvercastNetwork/Commons</url>
-    </ciManagement>
-
+    
     <build>
         <plugins>
             <plugin>
